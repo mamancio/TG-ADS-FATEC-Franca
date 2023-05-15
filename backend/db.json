@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "name": "Matheus Mancio",
+      "email": "mancio@gmail.com",
+      "idade": "1985-12-22",
+      "cpf": "33333333333",
+      "cidade": "Franca",
+      "setor": "Farmácia Central",
+      "senha": "123456",
+      "confsenha": "123456",
+      "id": 1
+    },
+    {
+      "name": "Leonardo Araujo",
+      "email": "leonardo@gmail.com",
+      "idade": "",
+      "cpf": "",
+      "cidade": "Franca",
+      "setor": "Almoxarifado Central",
+      "senha": "123456",
+      "confsenha": "123456",
+      "id": 2
+    }
+  ],
+  "descricoes": [
+    {
+      "descricao": "Dipirona Sodica",
+      "name": "Dipirona Sodica",
+      "label": "Dipirona Sodica",
+      "id": 1
+    },
+    {
+      "descricao": "Diclofenaco de Sódio",
+      "name": "Diclofenaco de Sódio",
+      "labe": "Diclofenaco de Sódio",
+      "id": 2
+    }
+  ],
+  "especificacoes": [
+    {
+      "especificacao": "500mg",
+      "name": "500mg",
+      "label": "500mg",
+      "id": 1
+    }
+  ],
+  "apresentacoes": [
+    {
+      "apresentacao": "Comprimido",
+      "name": "Comprimido",
+      "label": "Comprimido",
+      "id": 1
+    }
+  ],
+  "unidades": [
+    {
+      "unidade": "cpr",
+      "name": "cpr",
+      "label": "cpr",
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "descricao": "Dipirona Sodica",
+      "especificacao": "500mg",
+      "apresentacao": "Comprimido",
+      "unidade": "cpr",
+      "label": "cpr",
+      "name": "Dipirona Sodica 500mg Comprimido cpr",
+      "id": 1
+    }
+  ],
+  "empresas": [
+    {
+      "razaoSocial": "Hospital ABC Paulista Dr. Leonardo e Matheus",
+      "nomeFantasia": "Hospital ABC Paulista Dr. Leonardo e Matheus",
+      "cnpj": "54157785/0001-21",
+      "inscEstadual": "123456444",
+      "diretorResponsavel": "Dr. João Figueira",
+      "filialDe": "",
+      "telefone": "",
+      "id": 1
+    }
+  ],
+  "entradas": [],
+  "requisicoes": [
+    {
+      "produto": "Dipirona Sodica 500mg Comprimido cpr",
+      "qtde": "11",
+      "setor1": "Almoxarifado Central",
+      "setor2": "Farmácia Central",
+      "id": 1
+    }
+  ],
+  "requisicoes2": [
+    {
+      "setor1": "Almoxarifado Central",
+      "setor2": "Farmácia Central",
+      "id": 2
+    },
+    {
+      "setor1": "Farmácia Central",
+      "setor2": "Almoxarifado Central",
+      "id": 3
+    },
+    {
+      "setor1": "Almoxarifado Central",
+      "setor2": "Farmácia Central",
+      "id": 4
+    }
+  ],
+  "fornecedores": [
+    {
+      "razaoSocial": " Hospfar Indústria e Comércio de Produtos Hospitalares ",
+      "nomeFantasia": " Hospfar Indústria e Comércio de Produtos Hospitalares ",
+      "label": " Hospfar Indústria e Comércio de Produtos Hospitalares ",
+      "name": " Hospfar Indústria e Comércio de Produtos Hospitalares ",
+      "cnpj": "54123122/0001/36",
+      "inscEstadual": "8131816",
+      "rua": "Avenida Ibirapuera,  ",
+      "numero": "2332",
+      "complemento": "conjunto 62 6º andar, ",
+      "bairro": "Indianópolis",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "",
+      "id": 1
+    },
+    {
+      "razaoSocial": "ALTERMED MATERIAL MÉDICO HOSPITALAR",
+      "nomeFantasia": "ALTERMED MATERIAL MÉDICO HOSPITALAR",
+      "label": "ALTERMED MATERIAL MÉDICO HOSPITALAR",
+      "cnpj": "47 3520.9000",
+      "inscEstadual": "",
+      "rua": "ESTRADA BOA ESPERANÇA",
+      "numero": "2320",
+      "complemento": "",
+      "bairro": "FUNDO CANOAS",
+      "cidade": "FUNDO CANOASRIO DO SUL",
+      "estado": "sc",
+      "cep": "",
+      "id": 2
+    },
+    {
+      "razaoSocial": "Help Farma",
+      "nomeFantasia": "Help Farma",
+      "label": "Help Farma",
+      "cnpj": "69332218/0001-85",
+      "inscEstadual": "168651",
+      "rua": "Av. Presidente Tancredo Neves",
+      "numero": "3.489",
+      "complemento": "",
+      "bairro": "Castelo",
+      "cidade": " Belo Horizonte",
+      "estado": "MG",
+      "cep": "",
+      "id": 3
+    }
+  ],
+  "setores": [
+    {
+      "name": "Almoxarifado Central",
+      "label": "Almoxarifado Central",
+      "responsavel": "Leonardo Araujo",
+      "id": 1
+    },
+    {
+      "name": "Farmácia Central",
+      "label": "Farmácia Central",
+      "responsavel": "Matheus Mancio",
+      "id": 2
+    },
+    {
+      "name": "Farmácia Satélite (C.C)",
+      "label": "Farmácia Satélite (C.C)",
+      "responsavel": "Dr Claudio",
+      "id": 3
+    }
+  ],
+  "enderecos": [
+    {
+      "rua": "0001",
+      "prateleira": "0001",
+      "posicao": "0001",
+      "name": "Rua:0001 Prateleira:0001 Posição:0001",
+      "label": "Rua:0001 Prateleira:0001 Posição:0001",
+      "id": 1
+    },
+    {
+      "rua": "0001",
+      "prateleira": "0001",
+      "posicao": "0002",
+      "name": "Rua:0001 Prateleira:0001 Posição:0002",
+      "label": "Rua:0001 Prateleira:0001 Posição:0002",
+      "id": 2
+    }
+  ]
+}
